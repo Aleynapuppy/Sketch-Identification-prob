@@ -1,0 +1,28 @@
+body{
+    background-color: lightgray;
+}
+h1{
+    font-size: 40px;
+    background-color: darkblue;
+    color: aliceblue;
+    line-height: 2;
+}
+#show_sketch{
+    float: right;
+    margin-top: 20px;
+}
+p{
+    font-size: 20px;
+}
+canvas{
+    margin-top: 150px;
+    border: 10px solid navy;
+    border-radius: 25px;
+    animation-name:drawing;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes drawing{
+    from{box-shadow:5px 5px 100px rgb(86, 5, 110)};
+    from{box-shadow:5px 5px 100px rgb(161, 0, 121)};
+}
